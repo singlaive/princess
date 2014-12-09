@@ -1,0 +1,13 @@
+# Site settings
+title: Sophie & Elfie 
+email: singlaive@gmailcom
+description: > # this means to ignore newlines until "baseurl:"
+  Growth of Sophie and Elfie.
+baseurl: "/princess" # the subpath of your site, e.g. /blog/
+url: "http://singlaive.github.io" # the base hostname & protocol for your site
+twitter_username: singlaive
+github_username:  singlaive
+auto: true
+
+# Build settings
+markdown: kramdown

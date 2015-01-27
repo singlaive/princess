@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-	{% for post in site.posts %}
-	<li>
-	  <a href="{{ post.url }}">
-	    <h3>{{ post.title }}</h3>
-	  </a >
-	</li>
-	{% endfor %}
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+---
+theme :
+  name : mark-reid
+---
+{% include JB/setup %}
+{% include themes/mark-reid/default.html %}
